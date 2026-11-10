@@ -57,8 +57,8 @@ squares I Three =
 
 squares O _ =
   [
-    [o,o,n,n],
-    [o,o,n,n],
+    [n,o,o,n],
+    [n,o,o,n],
     [n,n,n,n],
     [n,n,n,n]
   ]

@@ -25,7 +25,6 @@ library
       Data.Tetromino.Type
       Data.Player
       Game
-    -- other-extensions:
     build-depends:    base ^>=4.20.2.0
     hs-source-dirs:   lib
     default-language: GHC2024
@@ -37,7 +36,8 @@ executable tetris
     -- other-extensions:
     build-depends:
         base ^>=4.20.2.0,
-        tetris
+        tetris,
+        random
 
     hs-source-dirs:   app
     default-language: GHC2024
